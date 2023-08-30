@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+body {
+  background: #f1fffb;
+}
+nav {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #85e6c5;
+  position: sticky;
+  top: 0;
+  color: #2a1054;
+}
+nav .title {
+  /* font-family: Abril FatFace; */
+  font-size: 22px;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-style: italic;
+}
+nav a {
+  text-decoration: none;
+  color: unset;
+  font-weight: 500;
+  margin: 10px;
+}
+main {
+  display: flex;
+  margin: 50px auto;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+main .sidebar {
+  width: fit-content;
+  margin-left: 15px;
+}
+.links_container {
+  margin-top: 30px;
+  /* min-height: 80%; */
+  /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+main .blog-container {
+  /* width: 80%; */
+  max-width: 80%;
+  text-align: justify;
+}
+.meta-details {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.meta-details .blog-heading {
+  font-family: Abril FatFace;
+  font-size: 45px;
+}
+.sidebar-heading {
+  margin-top: 15px;
+  text-align: center;
+}
+.link_element {
+  /* width: 85%; */
+  text-align: center;
+  background-color: aliceblue;
+  margin: 10px auto;
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+}
+.link_element img {
+  border-radius: 7px;
+}
+.link_element:nth-child(2n) {
+  background-color: antiquewhite;
+}
